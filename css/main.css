@@ -1,0 +1,104 @@
+
+
+
+
+header{
+    width:100%; height:5vh;
+    background-color:orangered;
+    position:absolute; z-index:5;
+    display:flex;
+}
+
+.small{
+    display:flex;
+}
+
+#main_menu ul{
+    display:flex;
+}
+
+#slider{
+    width:100%; height:95vh;
+    background-color:#516db1;
+    position:relative;
+}
+    #four{
+        width:67vw; height:68vh;
+        position:absolute; right:5%; bottom:15%; z-index:6;
+    }
+    #slider p{
+        font-family: 'RixYeoljeongdo_Regular';font-size:8vw;
+        text-transform: uppercase;
+        position:absolute; top:35%; left:5%; z-index:6;
+    }
+    #three{
+        width:20vw;
+        position:absolute; bottom:5%; left:15%;
+    }
+.section{
+    width:100%; height:5000px;
+    background-color:olive
+}
+#one_section{
+    width:100%; height:65vh;
+    display:flex;
+    position:relative;
+}
+    #video_show{
+        width:40%; height:65vh;
+        background-color:purple;
+    }
+    #dfy_g{
+        width:50%; height:32.5vh;
+        background-color:rosybrown;
+    }
+    #video_dfy{
+        width:60%; height:100%;
+    }
+    #video_dfy img{
+        width:100%; height:100%;
+    }
+    #play{
+        width:4vw; height:5vh;
+        position:absolute; z-index:8;
+    }
+#two_section{
+    width:100%; height:80vh;
+    display:flex;
+}
+    #video_show2{
+        width:40%; height:80vh;
+        background-color:purple;
+    }
+    #tmb_g{
+        width:50%; height:40vh;
+        background-color:rosybrown;
+    }
+    #video_tmb{
+        width:60%; height:80vh;
+    }
+#three_section{
+    width:100%; height:65vh;
+    background-color:rosybrown;
+    display:flex;
+    position:relative;
+}
+    #video_show3{
+        width:40%; height:65vh;
+        background-color:purple;
+    }
+    #syt_g{
+        width:100%; height:15vh;
+        background-color:orangered;
+    }
+    #video_syt{
+        width:45%; height:65vh;
+        z-index:7;
+    }
+    #syt_album{
+        width:20vw;
+        position:absolute; right:0; bottom:10%;
+    }
+
+
+
