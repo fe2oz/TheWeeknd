@@ -1,43 +1,80 @@
 
 
+@media(min-width:1000px){
+    #logo_menu{
+        display:none;
+    }
+}
 
+body{
+    background-color: #e8edf3;
+}
 
 header{
     width:100%; height:5vh;
-    background-color:orangered;
-    position:absolute; z-index:5;
-    display:flex;
+    position:fixed; z-index:10; top:0; left:0;
+    display:flex; justify-content: space-evenly;
+    background-color: #e8edf3;
+    border-bottom: 1px solid black;
 }
 
 .small{
     display:flex;
 }
-
+    .small p{
+        font-family: 'Vitro_core'; font-size:2vw;
+        cursor: pointer;
+    }
 #main_menu ul{
     display:flex;
 }
+    #main_menu ul li{
+        padding:5% 5% 0 5%;
+    }
+    #main_menu ul li a{
+        font-family: 'Pretendard-Regular'; font-size:0.8vw; font-weight:normal;
+        display:inline-block;
+    }
+    #main_menu ul li a::after{
+        content: "";
+        display:block;
+        border-bottom: 1px solid black;
+        transform: scale(0);
+        transition:0.35s;
+        transform-origin: 0% 50%;
+    }
+    #main_menu ul li a:hover::after{
+        transform: scale(1);
+    }
 
 #slider{
     width:100%; height:95vh;
     background-color:#516db1;
     position:relative;
+    background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;
 }
+    #slider > div{
+        width:100%; height:100%;
+        backdrop-filter: blur(15px);
+    }
     #four{
         width:67vw; height:68vh;
         position:absolute; right:5%; bottom:15%; z-index:6;
     }
     #slider p{
-        font-family: 'RixYeoljeongdo_Regular';font-size:8vw;
+        font-family: 'RixYeoljeongdo_Regular'; font-size:8vw;
         text-transform: uppercase;
         position:absolute; top:35%; left:5%; z-index:6;
+        -webkit-text-stroke: 4px black;
+        color:rgba(0, 0, 0, 1);
+        text-shadow: 7px 0px #572d17, 15px 15px #5970b7;
     }
     #three{
         width:20vw;
         position:absolute; bottom:5%; left:15%;
     }
 .section{
-    width:100%; height:5000px;
-    background-color:olive
+    width:100%; height:auto;
 }
 #one_section{
     width:100%; height:65vh;
@@ -120,10 +157,74 @@ header{
         background-color:rosybrown;
     }
 #five_section{
-    width:80%; height:150vh;
-    background-color:aliceblue;
+    width:100%; height:130%;
     margin:0 auto;
+}
+    #five_section > div{
+        width:80%; height:80vh;
+        position:sticky; top:0; left:0;
+        overflow:hidden;
+        margin:0 auto;
+    }
+    #five_section > div > img{
+        width:100%; height:100%;
+        position:sticky; 
+        object-fit: cover;
+    }
+#six_section{
+    width:100%; height:70vh;
+    display:flex; align-items: center; flex-flow:row wrap;
+}
+    #ho-zon-box{
+        width:80%; height:45vh;
+        background-color:rosybrown;
+        margin:0 auto;
+        overflow:hidden;
+        position:relative;
+    }
+    #ho-zon-box ul{
+        display:flex; justify-content: space-between;
+    }
+    #ho-zon-box ul li a img{
+        width:15vw; height:90%;
+    }
+    .prev,
+    .next{
+        height:100%;
+        font-family: 'YdestreetB'; font-size:5vw;
+        position:absolute;
+        color:#e6e6e6; 
+        transition:0.35s;
+        cursor:pointer;
+        line-height:43vh;
+    }
+    .prev:hover,
+    .next:hover{
+        background-color:#e6e6e6; color:black;
+        filter:opacity(0.5)
+    }
+    .prev{
+        left:0;
+    }
+    .next{
+        right:0;
+    }
+
+#seven_section{
+    width:100%; height:85vh;
+    background-size:100% 100%; background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
+#eight_section{
+    width:100%; height:60vh;
+    background-color:orange;
+}
+
+
+footer{
+    width:100%; height:12vh;
+    background-color:olive;
+}
 
