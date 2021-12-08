@@ -71,7 +71,7 @@ header{
         position:absolute; top:35%; left:5%; z-index:6;
         -webkit-text-stroke: 4px black;
         color:rgba(0, 0, 0, 1);
-        text-shadow: 7px 0px #572d17, 15px 15px #5970b7;
+        text-shadow: 7px 0px #c44728, 15px 15px #5970b7;
     }
     #three{
         width:20vw;
@@ -80,6 +80,8 @@ header{
 .section{
     width:100%; height:auto;
 }
+
+/* Die For You */
 #one_section{
     width:100%; height:65vh;
     display:flex;
@@ -92,7 +94,7 @@ header{
     }
     #dfy_g{
         width:50%; height:32.5vh;
-        background:rgba(0, 0, 0, 0.5);
+        background:rgba(0, 0, 0, 0.7);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
     #dfy_g p{
@@ -106,6 +108,7 @@ header{
         #dfy_g p:nth-of-type(3){
             font-size:1vw;
         }
+
     #video_dfy{
         width:60%; height:100%;
         background-repeat: no-repeat; background-size:100% 100%;
@@ -116,24 +119,26 @@ header{
         filter: brightness(70%);
     }
         #video_dfy p{
-            width:100%;
             font-family: 'Vitro_core'; font-size:3.5vw;
             text-transform: uppercase; text-align: center;
             color:white;
         }
-
+        #video_dfy p:hover{
+            text-shadow: 200px 0 0 0 rgba(89,112,183,1) inset;
+        }
+        
+/* Take My Breath */
 #two_section{
     width:100%; height:80vh;
     display:flex;
 }
     #video_show2{
         width:40%; height:80vh;
-        background-color:purple;
         display:flex; justify-content: center; align-items: center;
     }
     #tmb_g{
         width:50%; height:40vh;
-        background:rgba(0, 0, 0, 0.7);
+        background:rgba(0, 0, 0, 0.8);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
         #tmb_g p{
@@ -147,7 +152,7 @@ header{
             #tmb_g p:nth-of-type(3){
                 font-size:1vw;
             }
-
+            
     #video_tmb{
         width:60%; height:80vh;
         background-size:100% 100%; background-repeat: no-repeat;
@@ -155,7 +160,6 @@ header{
         cursor:pointer;
     }
         #video_tmb p{
-            width:100%;
             font-family: 'Vitro_core'; font-size:3.5vw;
             text-transform: uppercase; text-align: center;
             color:white;
@@ -163,7 +167,7 @@ header{
         #video_tmb:hover{
             filter: brightness(70%);
         }
-
+/* Save Your Tears */
 #three_section{
     width:100%; height:65vh;
     background-color:orangered;
@@ -172,22 +176,40 @@ header{
 }
     #video_show3{
         width:40%; height:65vh;
-        background-color:purple;
         display:flex; justify-content: center; align-items: center;
     }
     #syt_g{
         width:50%; height:32.5vh;
-        background:rgba(0, 0, 0, 0.5);
+        background:rgba(0, 0, 0, 0.8);
+        display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
+        #syt_g p{
+            text-align:center; 
+            font-family: 'Pretendard-Regular'; font-size:2vw;
+            color:white;
+        }
+        #syt_g p:nth-of-type(1){
+            font-weight: bold; font-size:2.5vw;
+        }
+        #syt_g p:nth-of-type(3){
+            font-size:1vw;
+        }
     #video_syt{
         width:60%; height:65vh;
         z-index:7;
         background-repeat: no-repeat; background-size:100% 100%;
+        display:flex; justify-content: center; align-items: center;
     }
-    #syt_album{
-        width:20vw;
-        position:absolute; right:0; bottom:10%;
-    }
+        #video_syt p{
+            width:100%;
+            font-family: 'Vitro_core'; font-size:3.5vw;
+            text-transform: uppercase; text-align: center;
+            color:white;
+        }
+        #video_syt:hover{
+            filter: brightness(70%);
+        }
+/* After Hours  */
 #four_section{
     width:100%; height:65vh;
     background-color:orange;
@@ -196,17 +218,40 @@ header{
 }
     #video_ah{
         width:60%; height:65vh;
-        background-color:olivedrab;
+        background-size:100% 100%; background-repeat: no-repeat;
+        display:flex; flex-flow:row wrap; justify-content: center; align-items: center;
     }
+    #video_ah:hover{
+        filter: brightness(70%);
+    }
+        #video_ah p{
+            width:100%;
+            font-family: 'Vitro_core'; font-size:3.5vw;
+            text-transform: uppercase; text-align: center;
+            color:white;
+        }
     #video_show4{
         width:40%; height:65vh;
         background-color:purple;
-        display:flex; justify-content: flex-end;
+        display:flex; justify-content: center; align-items: center;
     }
     #ah_g{
         width:50%; height:32.5vh;
-        background-color:rosybrown;
+        background:rgba(0, 0, 0, 0.8);
+        display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
+        #ah_g p{
+            text-align:center; 
+            font-family: 'Pretendard-Regular'; font-size:2vw;
+            color:white;
+        }
+        #ah_g p:nth-of-type(1){
+            font-weight: bold; font-size:2.5vw;
+        }
+        #ah_g p:nth-of-type(3){
+            font-size:1vw;
+        }
+
 #five_section{
     width:100%; height:130%;
     margin:0 auto;
@@ -222,44 +267,67 @@ header{
         position:sticky; 
         object-fit: cover;
     }
+
 #six_section{
     width:100%; height:70vh;
     display:flex; align-items: center; flex-flow:row wrap;
 }
-    #ho-zon-box{
-        width:80%; height:45vh;
-        background-color:rosybrown;
-        margin:0 auto;
-        overflow:hidden;
-        position:relative;
+#ss_box{
+    width:80%; height:42vh;
+    display:flex; justify-content: space-between;
+    margin:0 auto;
+}
+    #ss_1,
+    #ss_2,
+    #ss_3,
+    #ss_4,
+    #ss_5{
+        width:15vw;
+        display:Flex; flex-flow: column wrap; align-items: center; 
     }
-    #ho-zon-box ul{
-        display:flex; justify-content: space-between;
+    #ss_1 p,
+    #ss_2 p,
+    #ss_3 p,
+    #ss_4 p,
+    #ss_5 p{
+        font-family: 'Vitro_core'; font-size:1.3vw;
+        text-align: center;
+        margin-top:5%;
+        text-transform: uppercase;
     }
-    #ho-zon-box ul li a img{
-        width:15vw; height:90%;
-    }
-    .prev,
-    .next{
-        height:100%;
-        font-family: 'YdestreetB'; font-size:5vw;
-        position:absolute;
-        color:#e6e6e6; 
-        transition:0.35s;
-        cursor:pointer;
-        line-height:43vh;
-    }
-    .prev:hover,
-    .next:hover{
-        background-color:#e6e6e6; color:black;
-        filter:opacity(0.5)
-    }
-    .prev{
-        left:0;
-    }
-    .next{
-        right:0;
-    }
+
+        #ss_box button{
+            width:5vw; height:3vh;
+            background-color:#e8edf3;
+            cursor: pointer;
+            display:flex; justify-content: center; align-items: center;
+            font-size:0.6vw;
+            border:1px solid black;
+            transition:all 0.9s;
+        }
+        #ss_box button:hover{
+            box-shadow:200px 0 0 0 rgba(89,112,183,1) inset;
+            color:white;
+        }
+        #ss_box button img{
+            width:0.7vw;
+        }
+        
+            #ss_1 button,
+            #ss_2 button,
+            #ss_3 button{
+                margin-top:10%;
+            }
+            #ss_4 button,
+            #ss_5 button{
+                margin-top:5%;
+            }
+
+        #six_section img{
+            width:100%; height:65%;
+        }
+
+    
 
 #seven_section{
     width:100%; height:85vh;
