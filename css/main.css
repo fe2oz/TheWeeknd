@@ -25,15 +25,19 @@ header{
         font-family: 'Vitro_core'; font-size:2vw;
         cursor: pointer;
     }
-#main_menu ul{
-    display:flex;
+
+#main_menu{
+    width:25vw; height:100%;
 }
-    #main_menu ul li{
-        padding:5% 5% 0 5%;
+    #main_menu ul{
+        display:flex; justify-content: space-between;
     }
+    #main_menu ul li{
+        padding-top:3%;
+    }
+    
     #main_menu ul li a{
         font-family: 'Pretendard-Regular'; font-size:0.8vw; font-weight:normal;
-        display:inline-block;
     }
     #main_menu ul li a::after{
         content: "";
@@ -83,22 +87,41 @@ header{
 }
     #video_show{
         width:40%; height:65vh;
-        background-color:purple;
+        background-repeat: no-repeat; background-size:100% 100%;
+        display:flex; justify-content: center; align-items: center;
     }
     #dfy_g{
         width:50%; height:32.5vh;
-        background-color:rosybrown;
+        background:rgba(0, 0, 0, 0.5);
+        display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
+    #dfy_g p{
+        text-align:center; 
+        font-family: 'Pretendard-Regular'; font-size:2vw;
+        color:white;
+    }
+        #dfy_g p:nth-of-type(1){
+            font-weight:bold; font-size:3vw;
+        }
+        #dfy_g p:nth-of-type(3){
+            font-size:1vw;
+        }
     #video_dfy{
         width:60%; height:100%;
+        background-repeat: no-repeat; background-size:100% 100%;
+        display:flex; align-items: center; justify-content: center;
+        cursor:pointer;
     }
-    #video_dfy img{
-        width:100%; height:100%;
+    #video_dfy:hover{
+        filter: brightness(70%);
     }
-    #play{
-        width:4vw; height:5vh;
-        position:absolute; z-index:8;
-    }
+        #video_dfy p{
+            width:100%;
+            font-family: 'Vitro_core'; font-size:3.5vw;
+            text-transform: uppercase; text-align: center;
+            color:white;
+        }
+
 #two_section{
     width:100%; height:80vh;
     display:flex;
@@ -106,15 +129,41 @@ header{
     #video_show2{
         width:40%; height:80vh;
         background-color:purple;
-        display:flex; justify-content: flex-end;
+        display:flex; justify-content: center; align-items: center;
     }
     #tmb_g{
         width:50%; height:40vh;
-        background-color:rosybrown;
+        background:rgba(0, 0, 0, 0.7);
+        display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
+        #tmb_g p{
+            text-align:center; 
+            font-family: 'Pretendard-Regular'; font-size:2vw;
+            color:white;
+        }
+            #tmb_g p:nth-of-type(1){
+                font-weight: bold; font-size:2.5vw;
+            }
+            #tmb_g p:nth-of-type(3){
+                font-size:1vw;
+            }
+
     #video_tmb{
         width:60%; height:80vh;
+        background-size:100% 100%; background-repeat: no-repeat;
+        display:flex; align-items: center; justify-content: center;
+        cursor:pointer;
     }
+        #video_tmb p{
+            width:100%;
+            font-family: 'Vitro_core'; font-size:3.5vw;
+            text-transform: uppercase; text-align: center;
+            color:white;
+        }
+        #video_tmb:hover{
+            filter: brightness(70%);
+        }
+
 #three_section{
     width:100%; height:65vh;
     background-color:orangered;
@@ -124,14 +173,16 @@ header{
     #video_show3{
         width:40%; height:65vh;
         background-color:purple;
+        display:flex; justify-content: center; align-items: center;
     }
     #syt_g{
-        width:100%; height:15vh;
-        background-color:rosybrown;
+        width:50%; height:32.5vh;
+        background:rgba(0, 0, 0, 0.5);
     }
     #video_syt{
-        width:45%; height:65vh;
+        width:60%; height:65vh;
         z-index:7;
+        background-repeat: no-repeat; background-size:100% 100%;
     }
     #syt_album{
         width:20vw;
@@ -225,6 +276,21 @@ header{
 
 footer{
     width:100%; height:12vh;
-    background-color:olive;
+    display:flex; flex-flow:column wrap; justify-content: space-evenly; align-items: center;
 }
-
+    #social_box{
+        width:10vw;
+        display:flex; justify-content: space-between;
+    }
+    #social_box img{
+        width:0.9vw;
+    }
+    #ft-g{
+        width:40vw;
+        font-family: 'Pretendard-Regular'; font-size:0.6vw; font-weight: normal;
+        text-align: center;
+        display:flex; justify-content: space-between;
+    }
+    #ft-g a:hover{
+        text-decoration: underline;
+    }
