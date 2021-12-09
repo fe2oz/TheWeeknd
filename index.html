@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Weeknd</title>
 
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main/main.css" rel="stylesheet">
+    <link href="css/main/media_max-width599px.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
-    <script src="js/album_slide.js"></script>
+    <script src="js/header.js"></script>
 </head>
 
 <body>
     
     <header>
         <div class="small">
-            <img id="logo_menu" src="img/main/3671806_menu_icon.png" alt="">
+            <img id="logo_menu" src="img/main/3671806_menu_icon.png" alt="" onclick="openNav()">
             <a href="#"><p>THE WEEKND</p></a>
         </div>
 
         <div class="large">
             <nav id="main_menu">
                 <ul>
+                    <img id="close_menu" src="img/main/4115230_cancel_close_delete_icon.png" alt="" onclick="closeNav()">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">NEWS</a></li>
                     <li><a href="#">TOUR</a></li>
@@ -46,7 +48,7 @@
     <div class="section">
         <!-- Die For you -->
         <div id="one_section">
-            <div id="video_show" style="background: url(img/main/7bc60842d505753942b0cedf0e95f53074867806.jpg);">
+            <div id="video_show" style="background-image: url(img/main/7bc60842d505753942b0cedf0e95f53074867806.jpg);">
                 <div id="dfy_g">
                     <p>Die For You</p>
                     <p>ALBUM | STARBOY</p>
@@ -62,7 +64,7 @@
             <div id="video_tmb" style="background-image: url(img/main/tmb2.png);">
                 <a href="https://www.youtube.com/watch?v=rhTl_OyehF8" target="_blank"><p>Take My Breath<br> (Official Music Video)</p></a>
             </div>
-            <div id="video_show2" style="background: url(img/main/TMB1.jpg);">
+            <div id="video_show2" style="background-image: url(img/main/TMB1.jpg);">
                 <div id="tmb_g">
                     <p>Take My Breath</p>
                     <p>ALBUM | Take My Breath</p>
@@ -171,11 +173,30 @@
         </div>
 
         <div id="seven_section" style="background-image:url(img/13000008.jpg)">
-
+            <div>
+                <h1 id="tgone">official online store</h1>
+                <div id="tgtt">
+                    <h1>official online store</h1>
+                    <h1>official online store</h1>
+                    <button onclick="location.href='#'">NOW</button>
+                </div>
+            </div>
+            
         </div>
 
         <div id="eight_section">
-
+            <div id="es_sub">
+                <h1>Join Our Email List</h1>
+                <input id="email" type="email" placeholder="Email Address (Required)">
+                <input id="submit" type="submit" value="Join">
+            </div>
+            <div id="es_sub_g">
+                <p>Email will be sent by or on behalf of Universal Music Group
+                    2220 Colorado Avenue, Santa Monica, CA 90404(310) 865-4000.<br>
+                    You may withdraw your consent at any time.<br>
+                </p>
+                <span>Privacy Policy / Do Not Sell My Personal Information</span>
+            </div>
         </div>
 
 

@@ -1,58 +1,9 @@
 
 
-@media(min-width:1000px){
-    #logo_menu{
-        display:none;
-    }
-}
-
-body{
-    background-color: #e8edf3;
-}
-
-header{
-    width:100%; height:5vh;
-    position:fixed; z-index:10; top:0; left:0;
-    display:flex; justify-content: space-evenly;
-    background-color: #e8edf3;
-    border-bottom: 1px solid black;
-}
-
-.small{
-    display:flex;
-}
-    .small p{
-        font-family: 'Vitro_core'; font-size:2vw;
-        cursor: pointer;
-    }
-
-#main_menu{
-    width:25vw; height:100%;
-}
-    #main_menu ul{
-        display:flex; justify-content: space-between;
-    }
-    #main_menu ul li{
-        padding-top:3%;
-    }
-    
-    #main_menu ul li a{
-        font-family: 'Pretendard-Regular'; font-size:0.8vw; font-weight:normal;
-    }
-    #main_menu ul li a::after{
-        content: "";
-        display:block;
-        border-bottom: 1px solid black;
-        transform: scale(0);
-        transition:0.35s;
-        transform-origin: 0% 50%;
-    }
-    #main_menu ul li a:hover::after{
-        transform: scale(1);
-    }
+@media(max-width:599px){
 
 #slider{
-    width:100%; height:95vh;
+    width:100%; height:50vh;
     background-color:#516db1;
     position:relative;
     background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;
@@ -61,39 +12,41 @@ header{
         width:100%; height:100%;
         backdrop-filter: blur(15px);
     }
-    #four{
-        width:67vw; height:68vh;
-        position:absolute; right:5%; bottom:15%; z-index:6;
-    }
-    #slider p{
-        font-family: 'RixYeoljeongdo_Regular'; font-size:8vw;
-        text-transform: uppercase;
-        position:absolute; top:35%; left:5%; z-index:6;
-        -webkit-text-stroke: 4px black;
-        color:rgba(0, 0, 0, 1);
-        text-shadow: 7px 0px #c44728, 15px 15px #5970b7;
-    }
-    #three{
-        width:20vw;
-        position:absolute; bottom:5%; left:15%;
-    }
+        #four{
+            width:67vw; height:30vh;
+            position:absolute; right:5%; bottom:15%; z-index:6;
+        }
+        #slider p{
+            font-family: 'RixYeoljeongdo_Regular'; font-size:8vw;
+            text-transform: uppercase;
+            position:absolute; top:45%; left:5%; z-index:6;
+            -webkit-text-stroke: 4px black;
+            color:rgba(0, 0, 0, 1);
+            text-shadow: 7px 0px #c44728, 7px 7px #5970b7;
+        }
+        #three{
+            width:35vw;
+            position:absolute; bottom:5%; left:12%;
+        }
+
 .section{
     width:100%; height:auto;
 }
 
+
 /* Die For You */
 #one_section{
-    width:100%; height:65vh;
+    width:100%; height:30vh;
     display:flex;
     position:relative;
 }
     #video_show{
-        width:40%; height:65vh;
-        background-repeat: no-repeat; background-size:100% 100%;
+        width:40%; height:30vh;
+        background-repeat: no-repeat; background-size:cover;
         display:flex; justify-content: center; align-items: center;
     }
     #dfy_g{
-        width:50%; height:32.5vh;
+        width:70%; height:15vh;
         background:rgba(0, 0, 0, 0.7);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
@@ -106,7 +59,8 @@ header{
             font-weight:bold; font-size:3vw;
         }
         #dfy_g p:nth-of-type(3){
-            font-size:1vw;
+            font-size:1vw; 
+            margin-left:5%;
         }
 
     #video_dfy{
@@ -126,18 +80,18 @@ header{
         #video_dfy p:hover{
             text-shadow: 200px 0 0 0 rgba(89,112,183,1) inset;
         }
-        
 /* Take My Breath */
 #two_section{
-    width:100%; height:80vh;
+    width:100%; height:30vh;
     display:flex;
 }
     #video_show2{
-        width:40%; height:80vh;
+        width:40%; height:30vh;
         display:flex; justify-content: center; align-items: center;
+        background-repeat: no-repeat; background-size:cover;
     }
     #tmb_g{
-        width:50%; height:40vh;
+        width:70%; height:15vh;
         background:rgba(0, 0, 0, 0.8);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
@@ -146,15 +100,15 @@ header{
             font-family: 'Pretendard-Regular'; font-size:2vw;
             color:white;
         }
-            #tmb_g p:nth-of-type(1){
-                font-weight: bold; font-size:2.5vw;
-            }
-            #tmb_g p:nth-of-type(3){
-                font-size:1vw;
-            }
-            
+        #tmb_g p:nth-of-type(1){
+            font-weight: bold; font-size:2.5vw;
+        }
+        #tmb_g p:nth-of-type(3){
+            font-size:1vw;
+        }
+                    
     #video_tmb{
-        width:60%; height:80vh;
+        width:60%; height:30vh;
         background-size:100% 100%; background-repeat: no-repeat;
         display:flex; align-items: center; justify-content: center;
         cursor:pointer;
@@ -167,19 +121,21 @@ header{
         #video_tmb:hover{
             filter: brightness(70%);
         }
+
 /* Save Your Tears */
 #three_section{
-    width:100%; height:65vh;
+    width:100%; height:30vh;
     background-color:orangered;
     display:flex;
     position:relative;
 }
     #video_show3{
-        width:40%; height:65vh;
+        width:40%; height:30vh;
         display:flex; justify-content: center; align-items: center;
+        background-repeat: no-repeat; background-size:cover;
     }
     #syt_g{
-        width:50%; height:32.5vh;
+        width:70%; height:15vh;
         background:rgba(0, 0, 0, 0.8);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
@@ -195,7 +151,7 @@ header{
             font-size:1vw;
         }
     #video_syt{
-        width:60%; height:65vh;
+        width:60%; height:30vh;
         z-index:7;
         background-repeat: no-repeat; background-size:100% 100%;
         display:flex; justify-content: center; align-items: center;
@@ -211,13 +167,13 @@ header{
         }
 /* After Hours  */
 #four_section{
-    width:100%; height:65vh;
+    width:100%; height:30vh;
     background-color:orange;
     display:flex;
     position:relative;
 }
     #video_ah{
-        width:60%; height:65vh;
+        width:60%; height:30vh;
         background-size:100% 100%; background-repeat: no-repeat;
         display:flex; flex-flow:row wrap; justify-content: center; align-items: center;
     }
@@ -231,12 +187,12 @@ header{
             color:white;
         }
     #video_show4{
-        width:40%; height:65vh;
-        background-color:purple;
+        width:40%; height:30vh;
         display:flex; justify-content: center; align-items: center;
+        background-repeat: no-repeat; background-size:cover;
     }
     #ah_g{
-        width:50%; height:32.5vh;
+        width:70%; height:15vh;
         background:rgba(0, 0, 0, 0.8);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
@@ -250,14 +206,14 @@ header{
         }
         #ah_g p:nth-of-type(3){
             font-size:1vw;
-        }
+        } 
 
 #five_section{
     width:100%; height:130%;
-    margin:0 auto;
+    margin:0 auto; margin-top:15%; margin-bottom:15%;
 }
     #five_section > div{
-        width:80%; height:80vh;
+        width:100%; height:50vh;
         position:sticky; top:0; left:0;
         overflow:hidden;
         margin:0 auto;
@@ -266,15 +222,16 @@ header{
         width:100%; height:100%;
         position:sticky; 
         object-fit: cover;
-    }
+    } 
 
 #six_section{
-    width:100%; height:70vh;
-    display:flex; align-items: center; flex-flow:row wrap;
+    width:100%; height:100%;
+    display:flex; align-items: center; 
+    margin-bottom:15%;
 }
 #ss_box{
-    width:80%; height:42vh;
-    display:flex; justify-content: space-between;
+    width:100%; height:100%;
+    display:flex; justify-content: space-between; flex-flow:column wrap;
     margin:0 auto;
 }
     #ss_1,
@@ -282,22 +239,23 @@ header{
     #ss_3,
     #ss_4,
     #ss_5{
-        width:15vw;
-        display:Flex; flex-flow: column wrap; align-items: center; 
+        width:60vw; height:50vh;
+        display:Flex; align-items: center; flex-flow:column wrap; justify-content: center;
+        margin:0 auto;
     }
     #ss_1 p,
     #ss_2 p,
     #ss_3 p,
     #ss_4 p,
     #ss_5 p{
-        font-family: 'Vitro_core'; font-size:1.3vw;
+        font-family: 'Vitro_core'; font-size:4vw;
         text-align: center;
         margin-top:5%;
         text-transform: uppercase;
     }
 
         #ss_box button{
-            width:5vw; height:3vh;
+            width:17vw; height:4vh;
             background-color:#e8edf3;
             cursor: pointer;
             display:flex; justify-content: center; align-items: center;
@@ -310,7 +268,7 @@ header{
             color:white;
         }
         #ss_box button img{
-            width:0.7vw;
+            width:3vw;
         }
         
             #ss_1 button,
@@ -327,38 +285,82 @@ header{
             width:100%; height:65%;
         }
 
-    
-
 #seven_section{
-    width:100%; height:85vh;
-    background-size:100% 100%; background-repeat: no-repeat;
-    background-attachment: fixed;
+    width:100%; height:50vh;
+    background-size:100% 100%; background-repeat: no-repeat; background-attachment: fixed;
+    display:flex;
 }
+    #seven_section h1{
+        font-family: 'RixYeoljeongdo_Regular'; font-weight: 900; font-size:6vw;
+        text-transform: uppercase;
+        z-index:7;
+    }
+    #tgtt{
+        display:flex; flex-flow:column wrap; justify-content: center; align-items: center;
+    }
+    #seven_section #tgtt > h1{
+        -webkit-text-stroke: 0.5px black;
+        color:rgba(0, 0, 0, 0);
+    }
+    #tgtt button{
+        width:25vw; height:5vh;
+        font-family: 'Pretendard-Regular'; font-size:0.8vw;
+        border:0;
+        cursor:pointer;
+        transition:all 0.5s;
+        background-color:#e8edf3;
+        text-align:center;
+        margin-top:5%;
+    }
+    #tgtt button:hover{
+        box-shadow:222.95px 0 0 0 rgba(89,112,183,1) inset; 
+        color:white;
+    }
 
+    #seven_section > div{
+        width:100%; height:100%; 
+        display:flex; justify-content: center; align-items: center; flex-flow:column wrap;
+    } 
 
 #eight_section{
-    width:100%; height:60vh;
-    background-color:orange;
+    width:100%; height:50vh;
+    display:flex; justify-content: center; align-items: center; flex-flow:column wrap;
 }
+    #es_sub{
+        width:100%;
+        display:flex; justify-content: center; flex-flow:row wrap; align-items: center;
+    }
+    #es_sub h1{
+        font-family: 'Vitro_core'; font-size:5vw;
+    }
+    #es_sub #email{
+        width:40vw; height:5vh;
+        border:1px solid black;
+        background-color:#e8edf3;
+        margin-left:11%; margin-top:5%;
+    }
+    #es_sub #submit{
+        width:15vw; height:5vh;
+        border:1px solid black;
+        margin-left:3%; margin-top:5%;
+        cursor: pointer;
+        transition: 0.7s;
+        background-color:#5970b7;
+        color:white;
+    }
+        #es_sub #submit:hover{
+            box-shadow:222.95px 0 0 0 rgba(0,0,0,1) inset; 
+
+        }
+    #es_sub_g{
+        width:80%;
+        text-align:center;
+        margin-top:10%;
+        font-style: italic;
+    }
+        #es_sub_g span{
+            font-weight: bold; font-family: 'Pretendard-Regular';
+        }
 
 
-footer{
-    width:100%; height:12vh;
-    display:flex; flex-flow:column wrap; justify-content: space-evenly; align-items: center;
 }
-    #social_box{
-        width:10vw;
-        display:flex; justify-content: space-between;
-    }
-    #social_box img{
-        width:0.9vw;
-    }
-    #ft-g{
-        width:40vw;
-        font-family: 'Pretendard-Regular'; font-size:0.6vw; font-weight: normal;
-        text-align: center;
-        display:flex; justify-content: space-between;
-    }
-    #ft-g a:hover{
-        text-decoration: underline;
-    }
