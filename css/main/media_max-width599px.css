@@ -31,6 +31,7 @@
 
 .section{
     width:100%; height:auto;
+    margin-top:10%;
 }
 
 
@@ -42,7 +43,7 @@
 }
     #video_show{
         width:40%; height:30vh;
-        background-repeat: no-repeat; background-size:cover;
+        background-repeat: no-repeat; background-size:100% 100%;
         display:flex; justify-content: center; align-items: center;
     }
     #dfy_g{
@@ -88,7 +89,7 @@
     #video_show2{
         width:40%; height:30vh;
         display:flex; justify-content: center; align-items: center;
-        background-repeat: no-repeat; background-size:cover;
+        background-repeat: no-repeat; background-size:100% 100%;
     }
     #tmb_g{
         width:70%; height:15vh;
@@ -132,7 +133,7 @@
     #video_show3{
         width:40%; height:30vh;
         display:flex; justify-content: center; align-items: center;
-        background-repeat: no-repeat; background-size:cover;
+        background-repeat: no-repeat; background-size:100% 100%;;
     }
     #syt_g{
         width:70%; height:15vh;
@@ -189,7 +190,7 @@
     #video_show4{
         width:40%; height:30vh;
         display:flex; justify-content: center; align-items: center;
-        background-repeat: no-repeat; background-size:cover;
+        background-repeat: no-repeat; background-size:100% 100%;;
     }
     #ah_g{
         width:70%; height:15vh;
@@ -239,7 +240,7 @@
     #ss_3,
     #ss_4,
     #ss_5{
-        width:60vw; height:50vh;
+        width:60vw; height:60vh;
         display:Flex; align-items: center; flex-flow:column wrap; justify-content: center;
         margin:0 auto;
     }
@@ -274,7 +275,7 @@
             #ss_1 button,
             #ss_2 button,
             #ss_3 button{
-                margin-top:10%;
+                margin-top:5%;
             }
             #ss_4 button,
             #ss_5 button{
@@ -356,7 +357,7 @@
         width:80%;
         text-align:center;
         margin-top:10%;
-        font-style: italic;
+        font-style: italic; font-family: 'Pretendard-Regular'; font-size:2.5vw;
     }
         #es_sub_g span{
             font-weight: bold; font-family: 'Pretendard-Regular';

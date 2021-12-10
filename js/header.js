@@ -12,6 +12,6 @@ $(function(){
 
 $(window).resize(function(){
     if(window.innerWidth>=1000){
-        $('.main_menu').show();
+        $('.large').show();
     }
 });

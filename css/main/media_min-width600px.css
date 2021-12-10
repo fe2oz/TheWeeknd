@@ -1,8 +1,9 @@
 
 
-@media(min-width:1000px){
+@media(min-width:599px) and (max-width:999px){
+
 #slider{
-    width:100%; height:95vh;
+    width:100%; height:70vh;
     background-color:#516db1;
     position:relative;
     background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;
@@ -12,40 +13,41 @@
         backdrop-filter: blur(15px);
     }
         #four{
-            width:67vw; height:68vh;
-            position:absolute; right:5%; bottom:15%; z-index:6;
+            width:67vw; height:50vh;
+            position:absolute; right:5%; bottom:10%; z-index:6;
         }
         #slider p{
             font-family: 'RixYeoljeongdo_Regular'; font-size:8vw;
             text-transform: uppercase;
-            position:absolute; top:35%; left:5%; z-index:6;
+            position:absolute; top:45%; left:5%; z-index:6;
             -webkit-text-stroke: 4px black;
             color:rgba(0, 0, 0, 1);
-            text-shadow: 7px 0px #c44728, 15px 15px #5970b7;
+            text-shadow: 7px 0px #c44728, 7px 7px #5970b7;
         }
         #three{
-            width:20vw;
-            position:absolute; bottom:5%; left:15%;
+            width:25vw;
+            position:absolute; bottom:5%; left:12%;
         }
 
 .section{
     width:100%; height:auto;
-    margin-top:7%;
+    margin-top:12%;
 }
+
 
 /* Die For You */
 #one_section{
-    width:100%; height:65vh;
+    width:100%; height:50vh;
     display:flex;
     position:relative;
 }
     #video_show{
-        width:40%; height:65vh;
+        width:40%; height:50vh;
         background-repeat: no-repeat; background-size:100% 100%;
         display:flex; justify-content: center; align-items: center;
     }
     #dfy_g{
-        width:50%; height:32.5vh;
+        width:50%; height:25vh;
         background:rgba(0, 0, 0, 0.7);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
@@ -58,7 +60,8 @@
             font-weight:bold; font-size:3vw;
         }
         #dfy_g p:nth-of-type(3){
-            font-size:1vw;
+            font-size:1vw; 
+            margin-left:5%;
         }
 
     #video_dfy{
@@ -78,18 +81,18 @@
         #video_dfy p:hover{
             text-shadow: 200px 0 0 0 rgba(89,112,183,1) inset;
         }
-
 /* Take My Breath */
 #two_section{
-    width:100%; height:80vh;
+    width:100%; height:50vh;
     display:flex;
 }
     #video_show2{
-        width:40%; height:80vh;
+        width:40%; height:50vh;
         display:flex; justify-content: center; align-items: center;
+        background-repeat: no-repeat; background-size:100% 100%;
     }
     #tmb_g{
-        width:50%; height:40vh;
+        width:50%; height:25vh;
         background:rgba(0, 0, 0, 0.8);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
@@ -98,15 +101,15 @@
             font-family: 'Pretendard-Regular'; font-size:2vw;
             color:white;
         }
-            #tmb_g p:nth-of-type(1){
-                font-weight: bold; font-size:2.5vw;
-            }
-            #tmb_g p:nth-of-type(3){
-                font-size:1vw;
-            }
-            
+        #tmb_g p:nth-of-type(1){
+            font-weight: bold; font-size:2.5vw;
+        }
+        #tmb_g p:nth-of-type(3){
+            font-size:1vw;
+        }
+                    
     #video_tmb{
-        width:60%; height:80vh;
+        width:60%; height:50vh;
         background-size:100% 100%; background-repeat: no-repeat;
         display:flex; align-items: center; justify-content: center;
         cursor:pointer;
@@ -119,19 +122,20 @@
         #video_tmb:hover{
             filter: brightness(70%);
         }
+
 /* Save Your Tears */
 #three_section{
-    width:100%; height:65vh;
-    background-color:orangered;
+    width:100%; height:50vh;
     display:flex;
     position:relative;
 }
     #video_show3{
-        width:40%; height:65vh;
+        width:40%; height:50vh;
         display:flex; justify-content: center; align-items: center;
+        background-repeat: no-repeat; background-size:100% 100%;;
     }
     #syt_g{
-        width:50%; height:32.5vh;
+        width:50%; height:25vh;
         background:rgba(0, 0, 0, 0.8);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
@@ -147,7 +151,7 @@
             font-size:1vw;
         }
     #video_syt{
-        width:60%; height:65vh;
+        width:60%; height:50vh;
         z-index:7;
         background-repeat: no-repeat; background-size:100% 100%;
         display:flex; justify-content: center; align-items: center;
@@ -163,13 +167,12 @@
         }
 /* After Hours  */
 #four_section{
-    width:100%; height:65vh;
-    background-color:orange;
+    width:100%; height:50vh;
     display:flex;
     position:relative;
 }
     #video_ah{
-        width:60%; height:65vh;
+        width:60%; height:50vh;
         background-size:100% 100%; background-repeat: no-repeat;
         display:flex; flex-flow:row wrap; justify-content: center; align-items: center;
     }
@@ -183,12 +186,12 @@
             color:white;
         }
     #video_show4{
-        width:40%; height:65vh;
-        background-color:purple;
+        width:40%; height:50vh;
         display:flex; justify-content: center; align-items: center;
+        background-repeat: no-repeat; background-size:100% 100%;;
     }
     #ah_g{
-        width:50%; height:32.5vh;
+        width:50%; height:25vh;
         background:rgba(0, 0, 0, 0.8);
         display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
     }
@@ -202,14 +205,14 @@
         }
         #ah_g p:nth-of-type(3){
             font-size:1vw;
-        }
+        } 
 
 #five_section{
     width:100%; height:130%;
-    margin:0 auto; margin-top:7%;
+    margin:0 auto; margin-top:15%; margin-bottom:15%;
 }
     #five_section > div{
-        width:80%; height:80vh;
+        width:100%; height:60vh;
         position:sticky; top:0; left:0;
         overflow:hidden;
         margin:0 auto;
@@ -218,14 +221,16 @@
         width:100%; height:100%;
         position:sticky; 
         object-fit: cover;
-    }
+    } 
+
 #six_section{
-    width:100%; height:70vh;
-    display:flex; align-items: center; flex-flow:row wrap;
+    width:100%; height:100%;
+    display:flex; align-items: center; 
+    margin-bottom:15%;
 }
 #ss_box{
-    width:80%; height:42vh;
-    display:flex; justify-content: space-between;
+    width:100%; height:100%;
+    display:flex; justify-content: space-between; flex-flow:row wrap;
     margin:0 auto;
 }
     #ss_1,
@@ -233,22 +238,23 @@
     #ss_3,
     #ss_4,
     #ss_5{
-        width:15vw;
-        display:Flex; flex-flow: column wrap; align-items: center; 
+        width:30vw; height:55vh;
+        display:Flex; align-items: center; flex-flow:column wrap; justify-content: center;
+        margin:0 auto;
     }
     #ss_1 p,
     #ss_2 p,
     #ss_3 p,
     #ss_4 p,
     #ss_5 p{
-        font-family: 'Vitro_core'; font-size:1.3vw;
+        font-family: 'Vitro_core'; font-size:2vw;
         text-align: center;
         margin-top:5%;
         text-transform: uppercase;
     }
 
         #ss_box button{
-            width:5vw; height:3vh;
+            width:10vw; height:4vh;
             background-color:#e8edf3;
             cursor: pointer;
             display:flex; justify-content: center; align-items: center;
@@ -261,7 +267,7 @@
             color:white;
         }
         #ss_box button img{
-            width:0.7vw;
+            width:1.5vw;
         }
         
             #ss_1 button,
@@ -279,7 +285,7 @@
         }
 
 #seven_section{
-    width:100%; height:85vh;
+    width:100%; height:60vh;
     background-size:100% 100%; background-repeat: no-repeat; background-attachment: fixed;
     display:flex;
 }
@@ -292,18 +298,18 @@
         display:flex; flex-flow:column wrap; justify-content: center; align-items: center;
     }
     #seven_section #tgtt > h1{
-        -webkit-text-stroke: 0.5px black; 
+        -webkit-text-stroke: 0.5px black;
         color:rgba(0, 0, 0, 0);
-        font-weight:600;
     }
     #tgtt button{
-        width:12vw; height:5vh;
+        width:20vw; height:5vh;
         font-family: 'Pretendard-Regular'; font-size:0.8vw;
         border:0;
         cursor:pointer;
         transition:all 0.5s;
         background-color:#e8edf3;
         text-align:center;
+        margin-top:5%;
     }
     #tgtt button:hover{
         box-shadow:222.95px 0 0 0 rgba(89,112,183,1) inset; 
@@ -313,30 +319,29 @@
     #seven_section > div{
         width:100%; height:100%; 
         display:flex; justify-content: center; align-items: center; flex-flow:column wrap;
-    }
- 
+    } 
+
 #eight_section{
-    width:100%; height:60vh;
+    width:100%; height:65vh;
     display:flex; justify-content: center; align-items: center; flex-flow:column wrap;
-    background-size:cover; background-position: right;
 }
     #es_sub{
-        width:80%;
-        display:flex; justify-content: center;
+        width:100%;
+        display:flex; justify-content: center; flex-flow:row wrap; align-items: center;
     }
     #es_sub h1{
-        font-family: 'Vitro_core';
+        font-family: 'Vitro_core'; font-size:3vw;
     }
     #es_sub #email{
-        width:15vw;
+        width:25vw; height:5vh;
         border:1px solid black;
         background-color:#e8edf3;
-        margin-left:12%;
+        margin-left:11%; 
     }
     #es_sub #submit{
-        width:5vw;
+        width:10vw; height:5vh;
         border:1px solid black;
-        margin-left:0.8%;
+        margin-left:3%; 
         cursor: pointer;
         transition: 0.7s;
         background-color:#5970b7;
@@ -349,32 +354,12 @@
     #es_sub_g{
         width:80%;
         text-align:center;
-        margin-top:2%;
+        margin-top:10%;
         font-style: italic; font-family: 'Pretendard-Regular';
     }
         #es_sub_g span{
-            font-weight: bold;
+            font-weight: bold; font-family: 'Pretendard-Regular';
         }
 
 
 }
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-    
-
-
-
-

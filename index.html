@@ -8,6 +8,7 @@
 
     <link href="css/main/main.css" rel="stylesheet">
     <link href="css/main/media_max-width599px.css" rel="stylesheet">
+    <link href="css/main/media_min-width600px.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
@@ -17,24 +18,27 @@
 <body>
     
     <header>
-        <div class="small">
-            <img id="logo_menu" src="img/main/3671806_menu_icon.png" alt="" onclick="openNav()">
-            <a href="#"><p>THE WEEKND</p></a>
+        <div>
+            <div class="small">
+                <img id="logo_menu" src="img/main/3671806_menu_icon.png" alt="" onclick="openNav()">
+                <a href="#"><p>THE WEEKND</p></a>
+            </div>
+    
+            <div class="large">
+                <nav id="main_menu">
+                    <ul>
+                        <img id="close_menu" src="img/main/4115230_cancel_close_delete_icon.png" alt="" onclick="closeNav()">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">TOUR</a></li>
+                        <li><a href="music.html">MUSIC</a></li>
+                        <li><a href="#">VIDEOS</a></li>
+                        <li><a href="#">STORE</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-
-        <div class="large">
-            <nav id="main_menu">
-                <ul>
-                    <img id="close_menu" src="img/main/4115230_cancel_close_delete_icon.png" alt="" onclick="closeNav()">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">TOUR</a></li>
-                    <li><a href="#">MUSIC</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">STORE</a></li>
-                </ul>
-            </nav>
-        </div>
+        
     </header>
 
     <div id="slider" style="background-image: url(img/main/20211207_153719.png);">
@@ -125,50 +129,50 @@
 
         <div id="six_section">
             <div id="ss_box">
-                <a href="" id="ss_1">
+                <div id="ss_1">
                     <img id="ss_1mage" src="img/main/TMB1.jpg" alt="">
                     <p>Take My Breath</p>
                     <button onclick="location.href='http://theweeknd.co/tmb';" >
                         <img src="img/main/352072_arrow_play_icon.png" alt="">
                         &nbsp;LISTEN
                     </button>
-                </a>
+                </div>
     
-                <a href="" id="ss_2">
+                <div id="ss_2">
                     <img id="ss_2mage" src="img/main/PM-TW-ORN-COVER-(LAYERS)_02.jpg" alt="">
                     <p>One Right Now</p>
                     <button onclick="location.href='https://music.apple.com/us/album/1593056776?ign-itscg=30440&ign-itsct=catchall_p1';">
                         <img src="img/main/352072_arrow_play_icon.png" alt="">
                         &nbsp;LISTEN
                     </button>
-                </a>
+                </div>
     
-                <a href="" id="ss_3">
+                <div id="ss_3">
                     <img src="img/main/mta.jpg" alt="">
                     <p>Moth To A Flame</p>
                     <button onclick="location.href='http://theweeknd.co/MothToAFlame';">
                         <img src="img/main/352072_arrow_play_icon.png" alt="">
                         &nbsp;LISTEN
                     </button>
-                </a>
+                </div>
     
-                <a href="" id="ss_4">
+                <div id="ss_4">
                     <img src="img/main/ab67616d0000b2737a5b4e0ebe93011c797193ea.jpg" alt="">
                     <p>Save Your Tears (Remix)</p>
                     <button onclick="location.href='https://theweeknd.lnk.to/SYTRMX';">
                         <img src="img/main/352072_arrow_play_icon.png" alt="">
                         &nbsp;LISTEN
                     </button>
-                </a>
+                </div>
     
-                <a href="" id="ss_5">
+                <div id="ss_5">
                     <img src="img/main/ab67616d0000b273274b406a7e18acebcf743079.jpg" alt="">
                     <p>HOUSE OF BALLOONS (ORIGINAL)</p>
                     <button onclick="location.href='https://theweeknd.lnk.to/HouseofBalloons10';">
                         <img src="img/main/352072_arrow_play_icon.png" alt="">
                         &nbsp;LISTEN
                     </button>
-                </a>
+                </div>
             </div>
         </div>
 
