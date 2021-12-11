@@ -1,0 +1,176 @@
+
+
+@media(max-width:599px){
+#bnl,
+#mdm,
+#pfm,
+#rr{
+    width:100%; height:60vh; 
+}
+    #bnlimg,
+    #mdmimg,
+    #pfmimg,
+    #rrimg{
+        width:100%; height:50vh;
+    }
+
+    #bnl_text,
+    #mdm_text,
+    #pfm_text,
+    #rr_text{
+        width:100%; height:15vh;
+        display:flex; flex-flow:column wrap; justify-content: center; align-items: center;
+    }
+
+#t-o-sec1{
+    width:95%; height:50%;
+}
+    #t-o-sec1 > h1,
+    #t-o-sec2 > h1{
+        font-family: 'Pretendard-Regular'; font-size:5vw;
+        text-align:left;
+    }
+        #t-o-sec1 > h1{
+            font-size:20vw;
+        }
+    
+    #t-o-sec1 > div{
+        margin-top:10%;
+    }
+        #bnl{
+            margin-bottom:20%;
+        }
+
+#t-o-sec2{
+    width:100%; height:100%;
+    padding-top:20%;
+    display:flex; flex-flow:row wrap; justify-content: space-around;
+    position:relative;
+}
+
+    #mdm,
+    #pmf{
+        margin-bottom:8%;
+    }
+    #t-o-sec2 > h1{
+        position:absolute; left:2%; bottom:90%;
+        font-size:20vw;
+    }
+
+        #mdm,
+        #pfm{
+            width:45%; height:40vh;
+        }
+
+        #mdm_text,
+        #pfm_text{
+            width:100%; height:13vh;
+        }
+
+        #bsrimg,
+        #mdmimg,
+        #pfmimg{
+            width:100%; height:27vh;
+        }
+
+#t-o-sec3{
+    width:100%; height:100%;
+    position:relative;
+}
+    #t-o-sec3 > div{
+        display:flex; flex-flow:row wrap; justify-content: space-around;
+    }
+        #rr{
+            width:45%; height:40vh;
+            margin-bottom:8%;
+        }
+        #rr_text{
+            width:100%; height:13vh;
+        }
+
+        #rrimg{
+            width:100%; height:27vh;
+        }
+
+
+#t-o-sec1 span,
+#t-o-sec2 span,
+#t-o-sec3 span{
+    font-family: 'Pretendard-Regular'; font-size:2.5vw;
+    text-transform: uppercase;
+}
+#t-o-sec1 h2,
+#t-o-sec2 h2,
+#t-o-sec3 h2{
+    font-family: 'YdestreetB'; font-size:3vw;
+    text-transform: uppercase;
+}
+    #t-o-sec1 h2{
+        font-family: 'YdestreetB'; font-size:4vw;
+    }
+
+#t-o-sec1 button,
+#t-o-sec2 button,
+#t-o-sec3 button{
+    width:14vw; height:3vh;
+    background-color:#e8edf3;
+    cursor: pointer;
+    display:flex; justify-content: center; align-items: center;
+    font-size:0.6vw;
+    border:1px solid black;
+    transition:all 0.9s;
+    margin-top:3%;
+}
+
+    #t-o-sec1 button{
+        width:17vw;
+    }
+
+    #t-o-sec1 button img,
+    #t-o-sec2 button img,
+    #t-o-sec3 button img{
+        width:2vw;
+    }
+        #t-o-sec1 button img{
+            width:3vw;
+        }
+
+    
+    #t-o-sec1 button:hover,
+    #t-o-sec2 button:hover,
+    #t-o-sec3 button:hover{
+        box-shadow:200px 0 0 0 rgba(89,112,183,1) inset;
+        color:white;
+    }
+
+#section{
+    width:100%; height:15vh;
+    display:flex; justify-content: center; align-items: center;
+}
+    #pr_nx_b nav{
+        border-radius: 10px;
+    }
+    #pr_nx_b nav ul{
+        display:flex; justify-content: center; align-items: center;
+        text-align: center;
+        border-top:1px solid black; border-bottom:1px solid black;
+    }
+    #pr_nx_b nav ul li{
+        width:7vw; height:5vh;
+        border-right:1px solid black;
+        transition:0.35s;
+    }
+        #pr_nx_b nav ul li:nth-of-type(1){
+            border-left:1px solid black;
+        }
+        #pr_nx_b nav ul li:nth-of-type(4){
+            border-bottom:3px solid black;
+        }
+    #pr_nx_b nav ul li a{
+        font-family: 'Pretendard-Regular'; font-size:1vw;
+        line-height:5vh;
+    }
+    #pr_nx_b nav ul li:hover{
+        background-color:#5970b7;
+    }
+}
