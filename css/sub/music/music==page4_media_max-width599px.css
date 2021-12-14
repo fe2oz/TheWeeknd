@@ -3,18 +3,18 @@
 @media(max-width:599px){
 #to,
 #tdo,
-#hob{
+#hob2{
     width:100%; height:60vh; 
 }
     #toimg,
     #tdoimg,
-    #hobimg{
+    #hob2img{
         width:100%; height:50vh;
     }
 
     #to_text,
     #tdo_text,
-    #hob_text{
+    #hob2_text{
         width:100%; height:15vh;
         display:flex; flex-flow:column wrap; justify-content: center; align-items: center;
     }
@@ -60,35 +60,25 @@
         font-size:20vw;
     }
 
-        #tdo{
-            width:45%; height:40vh;
+        #tdo,
+        #hob2{
+            width:45%; height
+            :40vh;
         }
 
-        #wtdo_text{
+        #tdo_text,
+        #hob2_text{
             width:100%; height:13vh;
         }
-            #bbtm_text{
+            #hob2_text{
                 height:15vh;
             }
 
-        #tdoimg{
+        #tdoimg,
+        #hob2img{
             width:100%; height:32vh;
         }
- 
-        #hob{
-            width:45%; height:40vh;
-            margin-bottom:8%;
-        }
-        #hob_text{
-            width:100%; height:13vh;
-        }
-            #bbtm_d_text{
-                height:15vh;
-            }
 
-        #hobimg{
-            width:100%; height:32vh;
-        }
 
 
 #t-o-sec1 span,
@@ -118,6 +108,10 @@
     border:1px solid black;
     transition:all 0.9s;
     margin-top:3%;
+}
+
+#t-o-sec3{
+    display:none;
 }
 
     #t-o-sec1 button{

@@ -60,6 +60,9 @@
         #hob_text{
             height:17vh;
         }
+    #hob2{
+        display:none;
+    }
 
 #t-o-sec1 span,
 #t-o-sec2 span,
