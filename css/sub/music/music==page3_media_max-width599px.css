@@ -1,39 +1,33 @@
 
 
 @media(max-width:599px){
-#sb,
-#sbr,
-#thrgr,
-#thr,
-#bbtm,
-#bbtm_d,
-#oksv{
+#el,
+#wdl,
+#wdlr,
+#kld,
+#kl{
     width:100%; height:60vh; 
 }
-    #sbimg,
-    #sbrimg,
-    #thrgrimg,
-    #thrimg,
-    #bbtmimg,
-    #bbtm_d_img,
-    #oksvimg{
+    #elimg,
+    #wdlimg,
+    #wdlrimg,
+    #kldimg,
+    #klimg{
         width:100%; height:50vh;
     }
 
-    #sb_text,
-    #sbr_text,
-    #thrgr_text,
-    #thr_text,
-    #bbtm_text,
-    #bbtm_d_text,
-    #oksv_text{
+    #el_text,
+    #wdl_text,
+    #wdlr_text,
+    #kld_text,
+    #kl_text{
         width:100%; height:15vh;
         display:flex; flex-flow:column wrap; justify-content: center; align-items: center;
     }
 
         
 #t-o-sec1{
-    width:95%; height:50%;
+    width:100%; height:100%;
 }
     #t-o-sec1 > h1,
     #t-o-sec2 > h1{
@@ -46,36 +40,41 @@
     
     #t-o-sec1 > div{
         margin-top:10%;
+        display:flex; justify-content: space-around;
     }
-        #sb,
-        #sbr{
+        #el,
+        #wdl{
+            width:48%; height:40vh;
             margin-bottom:20%;
+        }
+        #elimg,
+        #wdlimg{
+            width:100%; height:30vh;
+        }
+        #el_text{
+            width:100%; height:17vh;
         }
 
 #t-o-sec2{
     width:100%; height:100%;
-    padding-top:20%;
+    padding-top:35%;
     display:flex; flex-flow:row wrap; justify-content: space-around;
     position:relative;
 }
 
-    #thrgr,
-    #thr,
-    #bbtm{
+    #wdlr{
         margin-bottom:8%;
     }
     #t-o-sec2 > h1{
-        position:absolute; left:2%; bottom:90%;
+        position:absolute; left:2%; bottom:70%;
         font-size:20vw;
     }
 
-        #thrgr,
-        #thr,
-        #bbtm{
+        #wdlr{
             width:45%; height:40vh;
         }
 
-        #thrgr_text,
+        #wdlr_text,
         #thr_text,
         #bbtm_text{
             width:100%; height:13vh;
@@ -84,15 +83,12 @@
                 height:15vh;
             }
 
-        #thrgrimg,
+        #wdlrimg,
         #thrimg,
         #bbtmimg{
             width:100%; height:27vh;
         }
  
-        
-
-
 #t-o-sec3{
     width:100%; height:100%;
     position:relative;
@@ -100,21 +96,21 @@
     #t-o-sec3 > div{
         display:flex; flex-flow:row wrap; justify-content: space-around;
     }
-        #bbtm_d,
-        #oksv{
+        #kld,
+        #kl{
             width:45%; height:40vh;
             margin-bottom:8%;
         }
-        #bbtm_d_text,
-        #oksv_text{
+        #kld_text,
+        #kl_text{
             width:100%; height:13vh;
         }
             #bbtm_d_text{
                 height:15vh;
             }
 
-        #bbtm_d_img,
-        #oksvimg{
+        #kldimg,
+        #klimg{
             width:100%; height:27vh;
         }
 
@@ -132,7 +128,7 @@
     text-transform: uppercase;
 }
     #t-o-sec1 h2{
-        font-family: 'YdestreetB'; font-size:4vw;
+        font-family: 'YdestreetB'; font-size:3vw;
     }
 
 #t-o-sec1 button,
@@ -189,7 +185,7 @@
         #pr_nx_b nav ul li:nth-of-type(1){
             border-left:1px solid black;
         }
-        #pr_nx_b nav ul li:nth-of-type(5){
+        #pr_nx_b nav ul li:nth-of-type(6){
             border-bottom:3px solid black;
         }
     #pr_nx_b nav ul li a{

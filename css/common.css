@@ -140,13 +140,14 @@ header > div{
 }
 
     #logo_menu{
-        width:5vw; height: 5vh; 
+        width:4vw; height: 4vh; 
         cursor: pointer;
+        margin-left:1%;
     }
 
     .small{
         width:100%;
-        display:flex; justify-content: space-between; 
+        display:flex; justify-content: space-between; align-items: center;
     }
         .small p{
             font-family: 'Vitro_core'; font-size:5vw;
@@ -166,10 +167,12 @@ header > div{
 }
     #main_menu ul{
         height:100%;
-        display:flex; flex-flow:column wrap; align-items: center; justify-content: center;
+        padding-top:30%;
+        text-align: center;
     }
         #main_menu ul li{
-            height:10vh; display:block;
+            height:10vh;
+            line-height:10vh;
         }
         #main_menu ul li a{
             font-family: 'Pretendard-Regular'; font-size:3vw; font-weight:normal;
@@ -231,6 +234,7 @@ header > div{
     #logo_menu{
         width:4vw; height:4vh;
         cursor: pointer;
+        margin-left:1%;
     }
 
     .small{
@@ -255,10 +259,12 @@ header > div{
 }
     #main_menu ul{
         height:100%;
-        display:flex; flex-flow:column wrap; align-items: center; justify-content: center;
+        text-align: center;
+        padding-top:20%;
     }
         #main_menu ul li{
-            height:10vh; display:block;
+            height:10vh;
+            line-height:10vh;
         }
         #main_menu ul li a{
             font-family: 'Pretendard-Regular'; font-size:3vw; font-weight:normal;

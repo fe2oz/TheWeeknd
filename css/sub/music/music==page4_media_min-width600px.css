@@ -14,8 +14,7 @@
     #t-o-sec1 > div{
         margin-top:20%;
     }
-        #sb,
-        #sbr{
+        #to{
             margin-bottom:20%;
         }
 
@@ -23,9 +22,7 @@
     width:25%; height:100%;
     padding-top:5%;
 }
-    #thrgr,
-    #thr,
-    #bbtm{
+    #tdo{
         margin-bottom:20%;
     }
     #t-o-sec2 > h1{
@@ -38,45 +35,30 @@
     #t-o-sec3 > div{
         margin-top:45%;
     }
-        #bbtm_d,
-        #oksv{
+        #hob{
             margin-bottom:20%;
         }
 
-#sb,
-#sbr,
-#thrgr,
-#thr,
-#bbtm,
-#bbtm_d,
-#oksv{
+#to,
+#tdo,
+#hob{
     width:100%;
 }
-    #sbimg,
-    #sbrimg,
-    #thrgrimg,
-    #thrimg,
-    #bbtmimg,
-    #bbtm_d_img,
-    #oksvimg{
+    #toimg,
+    #tdoimg,
+    #hobimg{
         width:95%; height:28vh;
     }
 
-    #sb_text,
-    #sbr_text,
-    #thrgr_text,
-    #thr_text,
-    #bbtm_text,
-    #bbtm_d_text,
-    #oksv_text{
+    #to_text,
+    #tdo_text,
+    #hob_text{
         width:100%; height:12vh;
         display:flex; flex-flow:column wrap; justify-content: center; align-items: center;
     }
 
-        #bbtm_text,    
-        #bbtm_d_text,
-        #oksv_text{
-            height:15vh;
+        #hob_text{
+            height:17vh;
         }
 
 #t-o-sec1 span,
@@ -135,7 +117,7 @@
         #pr_nx_b nav ul li:nth-of-type(1){
             border-left:1px solid black;
         }
-        #pr_nx_b nav ul li:nth-of-type(5){
+        #pr_nx_b nav ul li:nth-of-type(7){
             border-bottom:3px solid black;
         }
     #pr_nx_b nav ul li a{
