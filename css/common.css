@@ -190,7 +190,8 @@ header > div{
         }
         #close_menu{
             cursor: pointer; 
-            position:absolute; top:3%; right:3%;
+            position:fixed; top:3%; right:3%;
+            display:none;
         }
 
 footer{
@@ -282,7 +283,8 @@ header > div{
         }
         #close_menu{
             cursor: pointer; 
-            position:absolute; top:3%; right:3%;
+            position:fixed; top:5%; right:5%;
+            display:none;
         }
 
 footer{
